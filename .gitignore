@@ -1,0 +1,19 @@
+# Mac clutter
+.DS_Store
+
+# Claude working notes, kept on the Mac only
+CLAUDE.md
+HANDOFF.md
+.claude/
+.tmp/
+
+# Cloudflare and Node build leftovers
+.wrangler/
+node_modules/
+
+# Secrets, never commit
+.env
+.env.*
+*.key
+*.pem
+.dev.vars
